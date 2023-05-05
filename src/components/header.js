@@ -11,14 +11,14 @@ export default function Header() {
           <div className="cursor-pointer flex items-center mr-8 ml-8 ">
             Steam Pay
           </div>
-          <div className="flex w-16 h-16 bg-neutral-100 border items-center justify-center">
-            <RxHamburgerMenu className="cursor-pointer w-6 h-8" />
+          <div className="flex w-16 h-16 bg-neutral-100 border items-center justify-center hover:bg-gradient-to-r from-red-500 to-orange-500">
+            <RxHamburgerMenu className=" cursor-pointer w-6 h-8 " />
           </div>
           <div className="flex items-center">
             <ul className="flex ml-8">
               <li className="cursor-pointer flex ml-4">
-                <span className="cursor-pointer">Каталог продукции</span>
-                <RiArrowDownSFill className="cursor-pointer flex self-center -mt-1 ml-1 w-5 h-5 fill-neutral-300" />
+                <span className="cursor-pointer  hover:font-bold text-transparent bg-clip-text bg-gradient-to-br from-red-500 to-orange-500">Каталог продукции</span>
+                <RiArrowDownSFill className="cursor-pointer flex self-center -mt-1 ml-1 w-5 h-5 fill-neutral-300 " />
               </li>
               <li className="ml-4 cursor-pointer">Поддержка</li>
               <li className="ml-4 cursor-pointer">Мои покупки</li>
