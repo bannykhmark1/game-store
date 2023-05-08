@@ -5,18 +5,55 @@
 
 :root {
   font-family: "Play", sans-serif;
-  --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255;
+
+}
+
+
+.img-slider-first, .img-slider-second, .img-slider-third {
+  background-size: cover;
+  background-repeat: no-repeat;
+
+}
+
+
+.img-slider-first {
+  width: 842px;
+  height: 480px;
+  background-image: url("../img/madmax.jpeg");
+  background-color: #fff;
+}
+.img-slider-second, .img-slider-third {
+  width: 453px;
+  height: 240px;
+}
+
+.img-slider-second {
+  background-image: url("../img/mk11.jpg");
+}
+
+.img-slider-third {
+  background-image: url("../img/ss.jpg");
+
 }
 
 
 
-body {
-
+.transition {
+  transition: background 0.2s ;
 }
 
-.wrapper {
-  width: 980px;
-  margin: 0 auto;
+.transition:hover {
+  background-color: #fc9842;
+
+  background-image: linear-gradient(315deg, #fc9842 0%, #fe5f75 74%);
+}
+
+.swiper-button-next::after {
+  color:#fc9842
+}
+
+
+.swiper-button-prev::after {
+  color:#fc9842;
+
 }
